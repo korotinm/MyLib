@@ -47,9 +47,4 @@ public class LevenshteinDistance {
 
         return matrix[n - 1][m - 1];
     }
-
-    public static void main(String[] args) {
-        for(int i = 0; i < 1000000; i++)
-            System.out.println(new LevenshteinDistance().getDistance("коротин", "миша"));
-    }
 }
